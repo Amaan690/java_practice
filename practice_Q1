@@ -1,0 +1,8 @@
+ /*question 01:- create an array of 5 flats and calculate their sum  */
+        float[] marks = {56.5f,76.6f,75.5f,89.8f,45.5f};
+        float  sum =0;
+        for(float element:marks){
+            sum = sum + element;
+        }
+            System.out.print("The value of sum is: "+ sum + "%"  );
+        System.out.println(" ");
